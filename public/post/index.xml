@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Portfolio</title>
+    <link>/portfolio/post/</link>
+    <description>Recent content in Posts on Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ahern Nelson</title>
+      <link>/portfolio/post/resume/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/portfolio/post/resume/</guid>
+      <description>Locationahernnelson4@gmail.comDenver, COgithub.com/ahernnelsonUSA(720) 937-6517Education2015-2019BS, Mathematics, Statistics Concentration; Metropolitan State University of Denver
+Minor: Computer Science
+GPA: 3.63
+ExperienceLearning Assistant:
+* Lecturer and Aide for College Algebra Course of 35+.
+* Planned activities and lessons that promoted active and inquiry-based learning methods. Met with students during office to address individual challenges and questions.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/portfolio/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/portfolio/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>New York City Housing: Visualizing Housing Quality Over Time</title>
+      <link>/portfolio/post/new-york-housing/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/portfolio/post/new-york-housing/</guid>
+      <description>Background:The New York City Housing and Vacancy Survey (NYCHVS)1 is a conducted roughly every three years on a large representative sample by field representatives of the Census bureau and sponsored by the New York City Department of Housing Preservation and Development. It is one of the longest running survey in the country, with data going back to 1965. Roughly every decade a representative sample of housing units are selected to represent the core sample between the three-year periods.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,91 @@
+---
+title: "Ahern Nelson"
+author: "Ahern Nelson"
+date: 2015-07-23T21:13:14-05:00
+---
+
+-------------------     ----------------------------
+Location                        ahernnelson4@gmail.com
+Denver, CO                      [github.com/ahernnelson](github.com/ahernnelson)
+USA                             (720) 937-6517
+-------------------     ----------------------------
+
+Education
+---------
+
+2015-2019
+:   **BS, Mathematics, Statistics Concentration**; Metropolitan State University of Denver 
+
+    *Minor: Computer Science*
+    
+    *GPA: 3.63*
+    
+
+Experience
+----------
+
+**Learning Assistant:**  
+*	Lecturer and Aide for College Algebra Course of 35+.  
+*	Planned activities and lessons that promoted active and inquiry-based learning methods. Met with students during office to address individual challenges and questions.  
+*	Participated in semester long training investigating learning styles and teaching methods.  
+*	Received positive student evaluations at end of year assessment.
+
+**Research Assistant**
+
+*	Managed and formatted dataset of E. coli populations spanning 4 years. Published reproducible transparent record of all alterations to GitHub.
+*	Aggregated and imputed non periodic sparse time observations to a coarser scale for time series trend modeling using the R programming language.
+*	Investigated links between E. coli and human factors using seasonal 
+time series (ARIMA) models. 
+*	Our models disqualified several policy influencing hypotheses about E. coli population sources and safe thresholds for E. coli.
+*	Presented findings to non-profit at Undergraduate Research Conference. Recommendations about data collection process delivered to nonprofit Groundwork Denver and Denver Water.
+
+**Mathematics Tutor**
+
+*	Tutor for both lower and upper division undergraduate math courses ranging from College Algebra to Topology.
+*	Provide students with assistance and guidance in developing a conceptual understanding of mathematical modes of thought. 
+*	Mastered communication skills necessary to convey information to a broad base of learning styles.
+*	Provide students with guided practice to facilitate successful application of theories.
+
+
+Technical Experience
+--------------------
+
+New York City Housing and Vacancy Survey
+:   *	Led large scale research project analyzing housing quality in New York City.
+    *	Developed pipeline to recode and concatenate several misaligned data sets using [tidyverse](https://www.tidyverse.org/) tools.
+    *	Constructed statistical index quantifying housing quality.
+    *	Developed visualization dashboard using [plot.ly](https://plot.ly/r/) and [shiny](https://shiny.rstudio.com/).
+    *	Investigated the relationship between our index and poverty and implemented a quantile regression.
+
+
+Visualization Dashboard
+:   *	Developed two web applications for Metropolitan State University of Denver using the Shiny framework in R.
+    *	In 2019 I independently developed an interactive app visualizing results of a Faculty Equity and Inclusion Survey.
+    Live: https://ahern.shinyapps.io/survey_application/
+    *	In 2017 I worked with faculty to build a visualization tool to investigate the types of errors made on mathematics exams. 
+    Code: https://github.com/ahernnelson/Shiny-App
+
+
+Programming Languages
+:   **R programming:** Advanced in cleangin, manipulation, analysis, modeling, visualization, and [nonsense](https://github.com/brooke-watson/BRRR/blob/master/README.md) 
+
+:   **Python:** Advanced in pandas, numpy, sklearn, statsmodels, keras, etc. Adept in development.
+
+:   **Julia:** Obscure language that I kind of know. We both know this one's pushing
+    it.
+
+:   Basic knowledge of **SQL**, **MATLAB**
+
+
+
+Extracurricluar
+----------------------------------------
+    
+Budapest Semesters in Mathematics
+:   * Study Abroad Program Fall 2018
+    * Enrolled in Measure Theory, Complex Functions, and Functional Analysis
+    
+    
+Metropolitan State University of Denver Actuarial Club
+:   * Passed the first two exams P/1 and FM/2
+    * Served as Vice President Spring 2017 - Fall 2018
