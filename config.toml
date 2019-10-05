@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "portfolio/"
+baseURL = "https://modest-volhard-26de8a.netlify.com/"
 languageCode = "en-us"
 title = "Portfolio"
 theme = "forty"
