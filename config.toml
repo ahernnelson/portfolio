@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://modest-volhard-26de8a.netlify.com/"
+baseURL = "https://ahern.rbind.io/"
 languageCode = "en-us"
 title = "Portfolio"
 theme = "forty"

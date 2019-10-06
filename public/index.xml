@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio</title>
-    <link>/portfolio/</link>
+    <link>/</link>
     <description>Recent content on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 22:26:09 -0500</lastBuildDate>
     
-	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Convex Neural Networks</title>
-      <link>/portfolio/blogs/convex-neural-networks/</link>
+      <link>/blogs/convex-neural-networks/</link>
       <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
       
-      <guid>/portfolio/blogs/convex-neural-networks/</guid>
+      <guid>/blogs/convex-neural-networks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unbiased Estimators</title>
-      <link>/portfolio/blogs/unbiased-estimators/</link>
+      <link>/blogs/unbiased-estimators/</link>
       <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
       
-      <guid>/portfolio/blogs/unbiased-estimators/</guid>
+      <guid>/blogs/unbiased-estimators/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bear Creek Public Health and Water Quality Analysis</title>
-      <link>/portfolio/blogs/modeling-seasonal-e.-coli-populations/</link>
+      <link>/blogs/modeling-seasonal-e.-coli-populations/</link>
       <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
       
-      <guid>/portfolio/blogs/modeling-seasonal-e.-coli-populations/</guid>
+      <guid>/blogs/modeling-seasonal-e.-coli-populations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ahern Nelson</title>
-      <link>/portfolio/post/resume/</link>
+      <link>/post/resume/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/portfolio/post/resume/</guid>
+      <guid>/post/resume/</guid>
       <description>Locationahernnelson4@gmail.comDenver, COgithub.com/ahernnelsonUSA(720) 937-6517Education2015-2019BS, Mathematics, Statistics Concentration; Metropolitan State University of Denver
 Minor: Computer Science
 GPA: 3.63
@@ -54,10 +54,10 @@ GPA: 3.63
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/portfolio/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/portfolio/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -65,10 +65,10 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>New York City Housing: Visualizing Housing Quality Over Time</title>
-      <link>/portfolio/post/new-york-housing/</link>
+      <link>/post/new-york-housing/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/portfolio/post/new-york-housing/</guid>
+      <guid>/post/new-york-housing/</guid>
       <description>Background:The New York City Housing and Vacancy Survey (NYCHVS)1 is a conducted roughly every three years on a large representative sample by field representatives of the Census bureau and sponsored by the New York City Department of Housing Preservation and Development. It is one of the longest running survey in the country, with data going back to 1965. Roughly every decade a representative sample of housing units are selected to represent the core sample between the three-year periods.</description>
     </item>
     

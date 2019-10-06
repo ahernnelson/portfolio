@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plot on Portfolio</title>
-    <link>/portfolio/tags/plot/</link>
+    <link>/tags/plot/</link>
     <description>Recent content in plot on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/portfolio/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/plot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/portfolio/post/2015-07-23-r-rmarkdown/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/portfolio/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -24,10 +24,10 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>New York City Housing: Visualizing Housing Quality Over Time</title>
-      <link>/portfolio/post/new-york-housing/</link>
+      <link>/post/new-york-housing/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/portfolio/post/new-york-housing/</guid>
+      <guid>/post/new-york-housing/</guid>
       <description>Background:The New York City Housing and Vacancy Survey (NYCHVS)1 is a conducted roughly every three years on a large representative sample by field representatives of the Census bureau and sponsored by the New York City Department of Housing Preservation and Development. It is one of the longest running survey in the country, with data going back to 1965. Roughly every decade a representative sample of housing units are selected to represent the core sample between the three-year periods.</description>
     </item>
     

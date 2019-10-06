@@ -50,10 +50,10 @@ We have attempted to calculate our index from a consistent variable set overtime
 | 21 | Presence of mice or rats | 35a | 3 |
 | 22 | Water Leakage | 38a | 3 |
 
-Note that financial data, such as rent or income, is not included this is intentional. Many intuitively infer that income strongly impacts, or predicts, one’s living conditions. However, our measure of housing quality is very one dimensional, measuring only observable physical deficiencies and subjective ideas of quality of living are only loosely captured at best. As such we wish to explore the relationship between our index and income and thus would not want to include income in the measure itself as the relationship would be confounded. The complexity of the relationship is later explored.
+Note that financial data, such as rent or income, are not included and this is intentional. Many intuitively infer that income strongly impacts, or predicts, one’s living conditions. However, our measure of housing quality is very far from describing all the nuances of hosuing quality, measuring only observable physical deficiencies. Our subjective ideas of quality of living are only loosely captured at best. As such we wish to explore the relationship between our index and income and thus would not want to include something like income in the measure itself as the relationship would be confounded. The complexity of the relationship is later explored.
 
 ## Evaluating the Index
-Now that we have designed an index for measuring poor housing quality let’s consider an example of how it works in practice. Consider a unit with boarded up windows, two heating equipment breakdowns, and no toilet or plumbing. Then this unit would score: 3 + 2(2) + 5 = 12 on the Poor Housing Quality Index. Likewise, a unit with no detected issues would be 0. A note is in order, our index is an ordinal measure meaning that while unit with a PQI of 6 is measured as worse than unit with a PQI it is not twice as bad, and due to both the coarse nature of data and subjective weighting it is not necessarily a “better or worse” place to live it merely has higher weight of detected issues. Even so, the PQI is far more useful than nothing and gives a good guess of what that unit is like.
+Now that we have designed an index for measuring poor housing quality let’s consider an example of how it works in practice. Consider a unit with boarded up windows, two heating equipment breakdowns, and no toilet or plumbing. Then this unit would score: 3 + 2(2) + 5 = 12 on the Poor Housing Quality Index. Likewise, a unit with no detected issues would be 0. A note is in order, our index is an ordinal measure meaning that while unit with a PQI of 6 is measured as worse than unit with a PQI of 3 it is not twice as bad, and due to both the coarse nature of data and subjective weighting it is not necessarily a “better or worse” place to live. Even so, the PQI is a useful tool for gaging housing quality..
 
 With some understanding of PQI, let’s look more in depth at how our index is performing, what it might tell us, and how it varies over time. The first plot we are going to look at is a frequency distribution of PQI. It shows the percent (Y axis) of housing units at each index value (X axis). Further, I have animated the graphic to show how distribution changes from year to year. Note that data is only collected in 1991 and triennially from 1993-2017, and any intermediary frames are just interpolated values to make the animation flow.
 
@@ -106,12 +106,12 @@ all_data %>% group_by(Year) %>%
 g1 %>% ggplotly()
 ```
 
-These figures largely show the same information, but in two perspectives. The first makes it clear how the index functions and how we might begin to think of index values. For example, we might think of a unit with a PQI between 11 and 20 as being a unit with significant deficiencies, and a unit with PQI > 20 as having severe deficiencies. In the second figure we see huge disparity in trends between renter occupied units and non-renter occupied units. Note that roughly 67% of units are renter occupied in New York City, a very clear divergence from the rest.  In both figures we see an overall downward trend in index scores, especially among rented units, indicating that housing quality is improving over time.   
+These figures largely show the same information, but in two perspectives. The first makes it clear how the index functions and how we might begin to think of index values. For example, we might think of a unit with a PQI between 11 and 20 as being a unit with significant deficiencies, and a unit with PQI > 20 as having severe deficiencies. In both figures we see an overall downward trend in index scores indicating that housing quality is improving over time.   
 
 Now many questions start to arise. What is driving the improvement in housing units over time? How does it relate to variation in income? Rent? We’ll attempt to answer some these question and more in a future post.
 
 ## Rent has a big impact on quality
-```{r rent}
+```{r rent, fig.dim=c(11,6)}
 all_data %>% group_by(Year,Rent = if_else(!is.na(m_rent),"Rented","Other")) %>% 
   summarise(p_95 = quantile(pqi,.95),
             Mean = mean(pqi),
@@ -128,6 +128,7 @@ all_data %>% group_by(Year,Rent = if_else(!is.na(m_rent),"Rented","Other")) %>%
 g2 %>% ggplotly()
 ```
 
+More coming soon...
 ## References
 [^fn1]: https://www.census.gov/programs-surveys/nychvs.html
 [^fn2]: https://www.huduser.gov/publications/pdf/AHS_hsg.pdf
