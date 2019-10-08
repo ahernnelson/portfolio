@@ -129,6 +129,21 @@ g2 %>% ggplotly()
 ```
 
 More coming soon...
+
+```{r more rent, fig.dim=c(11,6)}
+all_data %>% mutate(Rent = !is.na(m_rent)) %>% 
+  group_by(Year) %>% summarise(`Rent Share` = mean(Rent), avg_pqi=mean(pqi)) %>%
+  mutate(scale_rent = rescale(`Rent Share`, to=range(avg_pqi))) -> temp_df
+sec_labels = paste0(c(66:70),"%")
+ggplot(temp_df,aes(x=Year)) + geom_line(size = 1, aes(y=avg_pqi,lty="Avg PQI")) + 
+  geom_line(aes(y=scale_rent, lty="Rent Share"), size=1) +
+  scale_x_continuous(breaks = labs) + xlab("") + ylab("Mean PQI") +
+  scale_y_continuous(sec.axis=sec_axis(~., name="Rent Share", labels = sec_labels)) +
+  theme_bw(base_size = 14) + ggtitle("Rent Share Variation Correlates with Average PQI ") +
+  scale_linetype_manual(breaks=c("Avg PQI","Rent Share"), values = c("solid","dotted")) +
+  theme(legend.position = "top", legend.title = element_blank()) -> best_plot
+best_plot 
+```
 ## References
 [^fn1]: https://www.census.gov/programs-surveys/nychvs.html
 [^fn2]: https://www.huduser.gov/publications/pdf/AHS_hsg.pdf
